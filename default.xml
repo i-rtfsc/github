@@ -43,7 +43,7 @@
     <project name="global_scripts" path="global_scripts" remote="origin"/>
 
     <!-- I007Service -->
-    <project name="I007Service" path="I007Service" remote="origin" revision="master" upstream="master"/>
+    <project name="I007Service" path="I007Service" remote="origin" />
 
     <!-- I007ServiceBintray -->
     <!--<project name="I007ServiceBintray" path="I007ServiceBintray" remote="origin" revision="master" upstream="master"/>-->
@@ -104,6 +104,9 @@
 
     <!-- add watermark on android screen -->
     <project name="watermark" path="watermark" remote="origin"/>
+
+    <!-- add watermark on android screen -->
+    <project name="ExtFrameworks" path="ExtFrameworks" remote="origin"/>
 
 </manifest>
 
