@@ -108,5 +108,13 @@
     <!-- add watermark on android screen -->
     <project name="ExtFrameworks" path="ExtFrameworks" remote="origin"/>
 
-</manifest>
+    <!-- add house -->
+    <project name="house" path="house" remote="origin"/>
 
+    <!-- add as-aosp -->
+    <project name="as-aosp" path="as-aosp" remote="origin"/>
+
+    <!-- add FvFwk -->
+    <project name="FvFwk" path="FvFwk" remote="origin"/>
+
+</manifest>
