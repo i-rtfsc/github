@@ -17,14 +17,18 @@
 
 <manifest>
 
-
     <remote name="aosp"
-            fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/"
+            fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP"
             review="https://android-review.googlesource.com/"/>
     <default revision="main"
              remote="aosp"
              sync-j="4"/>
-  
+
+    <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver"/>
+
+    <superproject name="platform/superproject/main" remote="aosp"/>
+    <contactinfo bugurl="go/repo-bug"/>
+
     <project path="art" name="platform/art" groups="pdk"/>
 
     <project path="bionic" name="platform/bionic" groups="pdk"/>
@@ -38,7 +42,8 @@
     <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs"/>
     <project path="frameworks/native" name="platform/frameworks/native" groups="pdk"/>
     <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="pdk"/>
-    <project path="frameworks/libs/modules-utils" name="platform/frameworks/libs/modules-utils"  groups="pdk-cw-fs,pdk-fs"/>
+    <project path="frameworks/libs/modules-utils" name="platform/frameworks/libs/modules-utils"
+             groups="pdk-cw-fs,pdk-fs"/>
     <project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs"/>
     <project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" groups="pdk-cw-fs,pdk-fs"/>
 
@@ -51,10 +56,12 @@
     <project path="libnativehelper" name="platform/libnativehelper" groups="pdk"/>
 
     <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs"/>
-
-    <project path="packages/modules/Connectivity" name="platform/packages/modules/Connectivity" groups="pdk-cw-fs,pdk-fs"/>
-    <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs"/>
-    <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs"/>
+    <project path="packages/modules/Connectivity" name="platform/packages/modules/Connectivity"
+             groups="pdk-cw-fs,pdk-fs"/>
+    <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices"
+             groups="pdk-cw-fs,pdk-fs"/>
+    <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks"
+             groups="pdk-cw-fs,pdk-fs"/>
     <project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs"/>
 
     <project path="system/core" name="platform/system/core" groups="pdk"/>
