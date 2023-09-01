@@ -51,6 +51,7 @@
     <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk"/>
     <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk"/>
     <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk"/>
+    <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk-qcom,qcom,qcom_display"/>
 
     <project path="libcore" name="platform/libcore" groups="pdk"/>
 
