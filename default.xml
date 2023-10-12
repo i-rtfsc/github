@@ -18,7 +18,7 @@
 <manifest>
     <!-- remote server -->
     <remote name="origin"
-            fetch="ssh://git@github.com/journeyOS/"/>
+            fetch="ssh://git@github.com/i-rtfsc/"/>
 
     <!-- remote server default config -->
     <default
@@ -57,11 +57,11 @@
     <!-- JiraBot -->
     <!--<project name="JiraBot" path="JiraBot" remote="origin" revision="master" upstream="master"/>-->
 
-    <!-- journeyOS -->
-    <!--<project name="journeyOS" path="journeyOS" remote="origin" revision="master" upstream="master"/>-->
+    <!-- i-rtfsc -->
+    <!--<project name="i-rtfsc" path="i-rtfsc" remote="origin" revision="master" upstream="master"/>-->
 
-    <!-- journeyOS.github.io -->
-    <!--<project name="journeyOS.github.io" path="journeyOS.github.io" remote="origin" revision="master" upstream="master"/>-->
+    <!-- i-rtfsc.github.io -->
+    <!--<project name="i-rtfsc.github.io" path="i-rtfsc.github.io" remote="origin" revision="master" upstream="master"/>-->
 
     <!-- An Android application which allows you received messages to screen -->
     <project name="LiteBarrage" path="LiteBarrage" remote="origin" revision="master" upstream="master"/>
