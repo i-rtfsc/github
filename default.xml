@@ -41,6 +41,8 @@
 
     <!-- global scripts -->
     <project name="global_scripts" path="global_scripts" remote="origin"/>
+    <!-- global scripts for work-->
+    <project name="gs_work" path="global_scripts/custom/work" remote="origin"/>
 
     <!-- I007Service -->
     <project name="I007Service" path="I007Service" remote="origin" />
@@ -112,7 +114,7 @@
     <project name="house" path="house" remote="origin"/>
 
     <!-- add as-aosp -->
-    <project name="as-aosp" path="as-aosp" remote="origin"/>
+    <project name="as-aosp" path="as-aosp" remote="origin" revision="aosp" upstream="aosp" />
 
     <!-- add FvFwk -->
     <project name="FvFwk" path="FvFwk" remote="origin"/>
