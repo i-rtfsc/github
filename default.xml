@@ -119,4 +119,7 @@
     <!-- add FvFwk -->
     <project name="FvFwk" path="FvFwk" remote="origin"/>
 
+    <!-- add note -->
+    <project name="note" path="note" remote="origin"/>
+
 </manifest>
