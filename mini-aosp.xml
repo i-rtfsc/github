@@ -36,6 +36,8 @@
     <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk"/>
     <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk"/>
 
+    <project path="external/libcxx" name="platform/external/libcxx" groups="pdk"/>
+    <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk"/>
     <project path="external/tensorflow" name="platform/external/tensorflow" groups="pdk"/>
 
     <project path="frameworks/av" name="platform/frameworks/av" groups="pdk"/>
@@ -67,6 +69,9 @@
              groups="pdk-cw-fs,pdk-fs"/>
     <project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs"/>
     <project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs"/>
+
+    <project path="packages/apps/Car/SystemUI" name="platform/packages/apps/Car/SystemUI" groups="pdk-fs"/>
+    <project path="packages/apps/Car/Settings" name="platform/packages/apps/Car/Settings" groups="pdk-fs"/>
 
     <project path="system/core" name="platform/system/core" groups="pdk"/>
     <project path="system/libbase" name="platform/system/libbase" groups="pdk"/>
