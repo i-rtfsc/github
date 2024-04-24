@@ -90,4 +90,6 @@
 
     <!-- for fwk gen aidl -->
     <project path="system/gsid" name="platform/system/gsid" groups="pdk"/>
+
+    <project path="tools/platform-compat" name="tools/platform-compat" groups="pdk-cw-fs,pdk-fs,pdk"/>
 </manifest>
