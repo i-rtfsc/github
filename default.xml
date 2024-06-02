@@ -123,9 +123,9 @@
     <!-- add note -->
     <project name="note" path="note" remote="origin"/>
 
-    <!-- add i-rtfsc.github.io -->
-    <project name="i-rtfsc.github.io" path="i-rtfsc.github.io" remote="origin" revision="master" upstream="master"/>
-
     <!-- LiteSample -->
     <project name="LiteSample" path="LiteSample" remote="origin"/>
+
+    <!-- ci-scripts -->
+    <project name="ci-scripts" path="ci-scripts" remote="origin"/>
 </manifest>
